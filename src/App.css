@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.App {
+  text-align: center;
+ 
+  font-family: "Roboto", sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1, h2, h3, h4{
+  font-family: "Inter", sans-serif;
+}
+
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  
+}
+
+.header nav {
+  background: #fff;
+  padding: 0 28px;
+}
+.header nav .navbar-nav {
+  gap: 25px;
+}
+.header nav {
+  list-style: none;
+}
+
+.header nav a {
+  font-size: 15px;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 58px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+}
+
+
+.header nav .btn.btn-primary {
+  background: transparent;
+  border: 0;
+}
+
+.header .head{
+  padding: 0 15px 0 0;
+}
+.header .head li {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  line-height: 60px;
+}
+.header .head ul{
+  gap: 20px;
+}
+.header .head ul li a {
+  font-size: 27px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.header .head ul li a span{
+  color: #BD4335;
+}
+/* slider */
+.slider {
+  padding-top: 170px;
+  height: 100vh;
+  min-height: 800px;
+}
+.slider .cor{
+  height: 100vh;
+}
+.slider h1 {
+  font-size: 72px;
+  color: #fff;
+  font-weight: 600;
+  max-width: 743px;
+  margin:0 auto 35px;
+}
+.slider .callnow {
+  line-height: 56px;
+  background: #FF4200;
+  min-width: 315px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: navajowhite;
+  font-size: 24px;
+}
+
+/* After_Hours */
+.After_Hours {
+  background: #2D2D2D;
+  padding: 25px 0;
+}
+.After_Hours h4 {
+  display: inline-grid;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+}
+.After_Hours p {
+  color: #fff;
+  font-size: 16px;
+  max-width: 382px;
+}
+.After_Hours .get {
+  line-height: 50px;
+  min-width: 160px;
+  color: #fff;
+  text-decoration: navajowhite;
+  font-size: 16px;
+  border: 1px solid #FF4200;
+  display: inline-block;
+  text-align: center;
+}
+.After_Hours h4 span {
+  color: #ff4200;
+}
+
+/* parts_we_stock */
+.parts_we_stock{
+  padding: 80px 0;
+}
+.heading h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #3A3A3A;
+  margin-bottom: 6px;
+}
+.heading h2 span {
+  color: #ff4200;
+}
+.heading p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #292929;
+  margin-bottom: 0;
+}
+.parts_we_stock .set .img1 {
+  height: 50%;
+}
+.parts_we_stock .set {
+  background: #D64132;
+    background-color: rgb(214, 65, 50);
+  height: 390px;
+  position: relative;
+  padding: 152px 0;
+  color: #fff;
+  position: relative;
+}
+.parts_we_stock .set h4{
+  font-size: 27px;
+  font-weight: 600;
+}
+.parts_we_stock .set h3 {
+  font-size: 129px;
+  font-weight: 600;
+  color: #ffffff52;
+  position: absolute;
+  bottom: -38px;
+  margin: 0;
+}
+.parts_we_stock .set p{
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 80%;
+  margin: auto;
+}
+
+
+
+/* Repair_Services */
+.Repair_Services{
+  padding: 80px 0;
+  color: #fff;
+}
+.Repair_Services .heading h2{
+  color: #fff;
+}
+.Repair_Services .heading  p {
+  color: #fff;
+  width: 90%;
+}
+.Repair_Services .book {
+  line-height: 50px;
+  min-width: 220px;
+  color: #fff;
+  text-decoration: navajowhite;
+  font-size: 16px;
+  border: 1px solid #CDBBB0;
+  display: inline-block;
+  text-align: center;
+  margin-top: 40px;
+}
+.Repair_Services .nav a {
+  font-size: 15px;
+  color: #FFF;
+  font-weight: 500;
+  padding: 0;
+  margin-bottom: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.Repair_Services .nav a i{
+  margin-right: 15px;
+  color: #ff4200;
+  font-size: 24px;
+}
+
+/* How_It_Works */
+.How_It_Works{
+  padding: 80px 0;
+  color: #fff;
+}
+.How_It_Works .heading h2{
+  color: #fff;
+}
+.How_It_Works .heading p{
+  color: #fff;
+}
+.How_It_Works .img {
+  height: 310px;
+  max-width: 219px;
+  margin: auto;
+}
+
+/* About_Coachs */
+.About_Coachs{
+  padding: 80px 0;
+}
+.About_Coachs h3{
+  color: #3A3A3A;
+  font-weight: 600;
+  font-size: 48px;
+}
+.About_Coachs p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #292929;
+  line-height: 24px;
+}
+
+
+/* testi */
+.testi {
+  background: #2D2D2D;
+  padding: 100px 0 100px;
+}
+
+.testi .user {
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+  margin: 0 auto 20px;
+}
+.testi  p {
+  color: #fff;
+  max-width: 610px;
+  margin: -26px auto 25px;
+}
+.testi h6 span {
+  font-size: 14px;
+  color: #fff;
+}
+.testi h6 {
+  color: #FF4200;
+  font-size: 18px;
+}
+
+.testi h4 {
+  height: 104px;
+  width: 97px;
+  background: #FF4200;
+  text-align: center;
+  margin: auto;
+  border-radius: 45px;
+  line-height: 104px;
+}
+.testi .carousel-control-prev, .testi .carousel-control-next{
+  display: none;
+}
+.testi  .carousel-indicators {
+  bottom: -50px;
+}
+.testi .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px !important;
+  background: #C1C1C1;
+  border: none;
+}
+
+.testi .carousel-indicators .active {
+  opacity: 1;
+  width: 22px !important;
+  background: #ff4200 !important;
+}
+
+
+/* footer */
+
+.end_footer p {
+  margin: 0;
+  color: #fff;
+  font-size: 15px;
+}
+.end_footer {
+  background: #2D2D2D;
+  padding: 15px 0;
+  
+}
+
+.end_footer a {
+  margin-left: 8px;
+}
+.foot {
+  background: #404040cf;
+  padding: 60px 50px;
+  text-align: left;
+}
+.foot h3 {
+  color: #fff;
+  font-size: 24px;
+}
+.foot p {
+  font-size: 15px;
+  color: #D4D4D4;
+  font-weight: 400;
+}
+.foot .nav a {
+  color: #D4D4D4;
+  padding: 0;
+}
+.foot  .nav {
+  color: #D4D4D4;
+  font-size: 15px;
+}
+.foot .nav .nav, .foot .nav .nav-link {
+  padding-left: 31px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.foot .nav .nav i, .foot .nav .nav-link i {
+  position: absolute;
+  left: 0;
+}
+
+
+
+@media (max-width: 1399.98px) {
+  /* header */
+.header .head .logo {
+  height: 80px;
+}
+.header .head ul li a {
+  font-size: 20px;
+}
+body {
+  font-size: 14px;
+}
+.header nav  a {
+  font-size: 14px;
+  line-height: 50px;
+}
+.header nav .navbar-nav {
+  gap: 10px;
+}
+
+.header .head {
+  line-height: 40px;
+}
+.header .head ul li a img {
+  height: 23px;
+}
+/* slider */
+.slider {
+  min-height: 700px;
+}
+.slider h1 {
+  font-size: 54px;
+}
+
+/* After_Hours */
+.After_Hours h4 {
+  font-size: 20px;
+}
+.After_Hours p {
+  font-size: 14px;
+  max-width: 327px;
+  margin-bottom: 0;
+}
+.After_Hours .get {
+  line-height: 44px;
+  min-width: 150px;
+  font-size: 14px;
+}
+
+/* parts_we_stock */
+.parts_we_stock, .How_It_Works, .Repair_Services, .About_Coachs {
+  padding: 60px 0;
+}
+
+.testi {
+  padding: 80px 0 80px;
+}
+.heading h2 {
+  font-size: 36px;
+}
+.heading p {
+  font-size: 14px;
+}
+
+
+
+/* About_Coachs */
+.About_Coachs p {
+  font-size: 14px;
+}
+.About_Coachs h3 {
+  font-size: 35px;
+}
+}
+
+
+
+
+@media (max-width: 1199.98px) {
+
+  /* header */
+  .header nav .navbar-nav {
+    gap: 02px;
+  }
+  .header .navbar-nav {
+    gap: 15px;
+  }
+  .header nav {
+    padding: 0 15px;
+  }
+  .header nav a {
+  padding: 0;
+  }
+  .header .head li {
+    font-size: 14px;
+    line-height: 40px;
+  }
+  /* slider */
+  .slider {
+    min-height: 600px;
+    height: 600px;
+  }
+.slider .cor {
+  height: 430px;
+}
+.slider .carousel-indicators{
+display: none;
+}
+.slider h1 {
+  font-size: 40px;
+  max-width: 420px;
+}
+.slider .callnow {
+  line-height: 50px;
+  min-width: 220px;
+  font-size: 18px;
+}
+/* testi */
+.testi p {
+  font-size: 14px;
+}
+
+/* After_Hours */
+.After_Hours {
+  padding: 18px 0px;
+}
+
+.heading h2 {
+  font-size: 28px;
+}
+/* parts_we_stock */
+.parts_we_stock, .How_It_Works, .Repair_Services, .About_Coachs {
+  padding: 45px 0;
+}
+.testi {
+  padding: 55px 0 55px;
+}
+.parts_we_stock .set {
+  height: 230px;
+  padding: 80px 0;
+}
+.parts_we_stock .set h3 {
+  font-size: 90px;
+  bottom: -25px;
+}
+.parts_we_stock .set h4 {
+  font-size: 20px;
+}
+.parts_we_stock .set p {
+  font-size: 14px;
+}
+
+/* Repair_Services */
+.Repair_Services .nav a {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.Repair_Services .nav a i {
+  font-size: 20px;
+}
+
+/* About_Coachs */
+.About_Coachs h3 {
+  font-size: 26px;
+}
+
+
+}
+
+@media (max-width: 991.98px) {
+  .header .head .logo {
+    height: 60px;
+  }
+
+  .slider .cor {
+    height: 360px;
+  }
+  .slider {
+    min-height: 500px;
+    height: 500px;
+  }
+  .slider h1 {
+    font-size: 30px;
+    max-width: 410px;
+    margin: 0 auto 16px;
+  }
+  .slider .callnow {
+    line-height: 44px;
+    min-width: 170px;
+    font-size: 15px;
+  }
+  .After_Hours p {
+    max-width: 320px;
+  }
+  .After_Hours .get {
+    line-height: 38px;
+    min-width: 138px;
+  }
+  .parts_we_stock, .How_It_Works, .Repair_Services, .About_Coachs {
+    padding: 36px 0;
+  }
+  .heading h2 {
+    font-size: 24px;
+  }
+  .Repair_Services .book {
+    line-height: 38px;
+    min-width: 175px;
+    margin-top: 38px;
+    font-size: 14px;
+  }
+  .How_It_Works .img {
+    height: 206px;
+  }
+  .parts_we_stock .set h3 {
+    font-size: 61px;
+    bottom: -17px;
+  }
+  .parts_we_stock .set {
+    padding: 70px 0;
+  }
+  .About_Coachs h3 {
+    font-size: 22px;
+  }
+  .foot h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler.collapsed {
+    position: absolute;
+    right: 12px;
+    top: -98px;
+    color: red;
+    background: #ff4200;
+    padding: 2px 8px;
+  }
+  .header nav .btn.btn-primary {
+    background: transparent;
+    border: 0;
+    position: absolute;
+    right: 65px;
+    top: -99px;
+    background: #fff;
+    height: 36px;
+    width: 36px;
+    padding: 0;
+    border-radius: 50%;
+  }
+  .header .head ul {
+    gap: 8px;
+  }
+  .header .head ul li a {
+    font-size: 16px;
+  }
+  .header .head li {
+    line-height: 24px;
+  }
+  .header .head{
+    padding: 12px 12px;
+    margin-top: 12px;
+  }
+  .Repair_Services .book {
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+  .slider h1 {
+    font-size: 26px;
+    max-width: 355px;
+    margin: 0 auto 10px;
+  }
+  .slider .callnow {
+    line-height: 38px;
+    min-width: 140px;
+    font-size: 14px;
+  }
+  .After_Hours h4 {
+    font-size: 18px;
+  }
+  .parts_we_stock .set {
+    padding: 44px 0;
+    height: 190px;
+  }
+  .parts_we_stock .set p {
+    font-size: 13px;
+    max-width: 93%;
+    line-height: 18px;
+  }
+  .parts_we_stock .set h3 {
+    font-size: 46px;
+    bottom: -12px;
+  }
+  .foot {
+    padding: 20px 20px;
+  }
+  .foot p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+    .After_Hours .get {
+      margin-top: 16px;
+    }
+    .After_Hours p {
+      margin: auto;
+    }
+  .header .head ul li a {
+    font-size: 14px;
+  }
+  .heading h2 {
+    font-size: 22px;
+  }
+  .parts_we_stock .set h3 {
+    font-size: 61px;
+    bottom: -19px;
+  }
+}
+@media (max-width:480px) {
+.header .head li {
+  font-size: 11px;
+}
+}
